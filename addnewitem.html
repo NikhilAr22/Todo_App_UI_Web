@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="item.css" />
+    <script
+      src="https://kit.fontawesome.com/09477b83d2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Task</title>
+  </head>
+  <body>
+    <div class="not-show">
+      <!-- tasklist -->
+      <div class="upper-container">
+        <div class="title">
+          <h1>Tasks<span class="title-2">List</span></h1>
+        </div>
+      </div>
+
+      <!-- Addnew -->
+      <div class="upper-container-2">
+        <div class="back">
+          <i class="fa-solid fa-circle-arrow-left fa-xl"></i>
+          <p>Back</p>
+        </div>
+        <div class="addnew">
+          <i class="fa-solid fa-circle-plus fa-2xl"></i>
+          <h3>Add New Tasks</h3>
+        </div>
+      </div>
+
+      <div class="card-flow">
+        <div class="card-flow1">
+          <!-- card1 -->
+
+          <div class="card-6">
+            <p class="card-item">Trip to Paris</p>
+            <hr />
+            <div class="list">
+              <form action="">
+                <input type="checkbox" name="" id="check" checked disabled />
+                <p class="li-1">Visit Church</p>
+              </form>
+
+              <form action="">
+                <input type="checkbox" name="" id="check" />
+                <p class="li-2">Shopping</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add New Item -->
+
+    <div class="addnewtask">
+      <div class="addtask">
+        <p>Add New Item</p>
+        <i class="fa-sharp fa-solid fa-xmark"></i>
+      </div>
+      <hr />
+      <div class="addtext">
+        <input
+          class="textinput"
+          placeholder="Visit Famous Places"
+          type="text"
+        />
+        <br />
+        <button class="task-btn">
+          <i class="fa-sharp fa-solid fa-plus"></i> &nbsp; Add Item
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
